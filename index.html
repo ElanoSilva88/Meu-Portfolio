@@ -11,16 +11,22 @@
 <body>
   <header>
     <div class="header" id="header">
+      <button onclick="toggleSidebar()" class="button-header"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg></button>
       <div><img class="logo_header" src="./IMGs/kisspng-computer-programming-programmer-icon-design-softwa-coder-png-transparent-image-5a756d89c09351.0972296815176451937888.png" alt="logo">
       </div>
-      <div class="nav_header">
+      <div class="nav_header" id="nav_header">
+        <button onclick="toggleSidebar()" class="button-header"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+        </svg></button>
         <a href="#" class="ativo">Sobre mim</a>
         <a href="#">Projetos</a>
         <a href="#">Experiência</a>
         <a href="#">Contato</a>
       </div>
     </div>
-    <div class="content">
+    <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
       <h1>Elano Silva</h1>
       <img class="minha-foto" src="./IMGs/Minha-foto.jpg" alt="" srcset="">
       <p class="p-de-apresentacao">Olá, Seja bem vindo(a) Sinta-se à vontade para explorar meu portfólio e entrar em contato comigo para discutir como posso contribuir para o sucesso do seu projeto. Estou ansioso para fazer parte de equipes incríveis e criar soluções inovadoras.</p>
@@ -30,5 +36,5 @@
     </main>
     <footer></footer>
 </body>
-
+<script src="script.js"></script>
 </html>

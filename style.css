@@ -24,6 +24,7 @@ body {
 }
 .nav_header {
   gap: 48px;
+  z-index: 2;
 }
 .nav_header a {
   text-decoration: none;
@@ -55,4 +56,31 @@ body {
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 25px;
+}
+.button-header {
+  background-color: transparent;
+  border:none;
+  color: rgba(90, 130, 240, 0.877);
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 768px){
+  .button-header {
+    display: block;
+  }
+  .nav_header {
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    height: 100%;
+    width: 35vw;
+    padding: 16px;
+    background-color: #343434;
+    animation-duration: 1s;
+    margin-left: -100vw;
+  }
+}
+@keyframes showSidebar {
+  from {margin-left: -100vw;}
+  top {margin-left: -10vw;}
 }
