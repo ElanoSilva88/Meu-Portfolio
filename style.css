@@ -90,3 +90,10 @@ div a:hover {
   padding: 10px;
   border-radius: 10px;
 }
+
+footer {
+  padding: 32px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
