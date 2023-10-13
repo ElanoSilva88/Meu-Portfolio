@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PortFolio Elano Silva</title>
+    <title>Sobre</title>
   </head>
-
   <body>
     <header>
       <div class="header" id="header">
@@ -57,25 +55,30 @@
       </div>
     </header>
 
-    <main>
-      <div
-        tabindex="0"
-        onclick="closeSidebar()"
-        class="content flex flex-col items-center"
-        id="content"
-      >
-        <h1>Elano Silva</h1>
-        <img class="minha-foto" src="Minha-foto.jpg" alt="" srcset="" />
-        <p class="p-de-apresentacao">
-          Olá, Seja bem vindo(a) Sinta-se à vontade para explorar meu portfólio
-          e entrar em contato comigo para discutir como posso contribuir para o
-          sucesso do seu projeto. Estou ansioso para fazer parte de equipes
-          incríveis e criar soluções inovadoras.
-        </p>
+    <main class="px-4 py-8 lg:py-32">
+      
+      <div class="flex justify-center">
+        <div class="text-center lg:max-w-[700px]">
+          <h1 class="text-3xl lg:text-5xl">Quem é o Elano? // ola mundo</h1>
+          <div class="lg:px-32">
+            <div class="relative pb-[100%] rounded-full overflow-hidden mt-16">
+              <img class="absolute left-0 top-0 object-cover object-center w-full" src="Minha-foto.jpg" alt="" srcset="" />
+            </div>
+          </div>
+          <p class="text-lg lg:text-xl mt-16">
+            Olá, Seja bem vindo(a) Sinta-se à vontade para explorar meu portfólio
+            e entrar em contato comigo para discutir como posso contribuir para o
+            sucesso do seu projeto. Estou ansioso para fazer parte de equipes
+            incríveis e criar soluções inovadoras.
+          </p>
+        </div>
       </div>
+
+
     </main>
 
     <footer>© 2023 by Elano. Powered by Digital College.</footer>
-    <script type="module" src="/main.js"></script>
+
+    <script type="module" src="/main.sobre.js"></script>
   </body>
 </html>

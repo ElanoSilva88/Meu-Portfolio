@@ -24,7 +24,7 @@ body {
   box-shadow: 1px 1px 4px color #1c1c1c;
   height: 56px;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 0 16px;
 }
 .nav_header {
   gap: 48px;
